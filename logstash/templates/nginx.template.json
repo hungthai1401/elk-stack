@@ -1,0 +1,26 @@
+{
+    "index_patterns": [
+        "nginx_logs_*"
+    ],
+    "template": {        
+        "settings": {
+            "number_of_shards": 1
+        },
+        "mappings": {
+            "properties": {
+                "status": {
+                    "type": "short"
+                },
+                "upstream_status": {
+                    "type": "short"
+                },
+                "upstream_response_time": {
+                    "type": "double"
+                },
+                "@timestamp": {
+                    "type": "date"
+                }
+            }
+        }
+    }
+}

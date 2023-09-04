@@ -1,0 +1,24 @@
+## Filebeat configuration
+## https://github.com/elastic/beats/blob/main/deploy/docker/filebeat.docker.yml
+#
+
+name: filebeat
+
+filebeat.inputs:
+  - type: filestream
+    enabled: true
+    paths:
+      - /var/log/mylog/access.log
+    fields_under_root: true
+    fields:
+      log_type: nginx
+  - type: filestream
+    enabled: true
+    paths:
+      - /var/log/mylog/sql-*.log
+    fields_under_root: true
+    fields:
+      log_type: database
+
+output.logstash:
+  hosts: [logstash:5044]

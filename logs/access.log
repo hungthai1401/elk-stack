@@ -1,0 +1,2 @@
+172.16.7.215 - - [07/Aug/2023:23:13:24 +0700] "GET / HTTP/1.1" 200 17662 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" "-" "example.com" sn="example.com" rt=0.162 ua="127.0.0.1:80" us="200" ut="0.162" ul="17633" cs=-
+172.16.7.215 - - [08/Aug/2023:23:43:54 +0700] "GET / HTTP/1.1" 200 17662 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" "-" "example.com" sn="example.com" rt=0.160 ua="127.0.0.1:80" us="200" ut="0.159" ul="17633" cs=-

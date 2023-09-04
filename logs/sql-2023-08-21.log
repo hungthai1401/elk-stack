@@ -1,0 +1,2 @@
+[2023-08-21 20:15:09] local.DEBUG: select * from `users` where `phone` = '123456789' and `users`.`deleted_at` is null order by `id` desc limit 1; {"time":404.2} 
+[2023-08-22 20:15:09] local.DEBUG: select * from `users` where `phone` = '123456789' and `users`.`deleted_at` is null order by `id` desc limit 1; {"time":404.2}
