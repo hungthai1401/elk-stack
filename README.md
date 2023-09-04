@@ -2,7 +2,7 @@
 
 Elasticsearch, Kibana, Beats, and Logstash
 
-## Work flow
+## Workflow
 
 mylog -> filebeat -> logstash -> elasticsearch <- kibana
 
